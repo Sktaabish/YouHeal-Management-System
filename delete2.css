@@ -1,0 +1,49 @@
+*{
+    margin: auto;
+    padding: 0;
+}
+
+/*======CONTAINER=====*/
+
+.delete2_wrapper .container {
+    max-width: 2000px;
+    margin: auto;
+}
+
+/*======BACK-BUTTON=====*/
+
+.delete2_wrapper .back {
+    margin-top: 2rem;
+    margin-left: 35px;
+}
+
+.delete2_wrapper button {
+    border: none;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 550;
+    cursor: pointer;
+}
+
+/*======ICONS=====*/
+
+.delete2_wrapper .icons {
+    margin-left: -21px;
+    margin-top: -18px;
+    font-size: 18px;
+}
+
+.delete2_wrapper a {
+    color: #000;
+    cursor: pointer;
+}
+
+/*======H1=====*/
+
+h1.h1{
+    text-align: center;
+    align-items: center;
+    color: #fafafa;
+    margin: 18%;
+    background: #1976d2;
+}

@@ -1,0 +1,120 @@
+* {
+    margin: auto;
+    padding: 0;
+}
+
+/*======DONATE_WRAPPER=====*/
+
+.donate_wrapper {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    height: 110vh;
+}
+
+/*======CONTAINER=====*/
+
+.donate_wrapper .container {
+    max-width: 2000px;
+    margin: auto;
+}
+
+/*======BOX=====*/
+
+.donate_wrapper .box {
+    width: 47%;
+    height: 105vh;
+    border: 2px solid #1976d2;
+    margin-top: 25px;
+}
+
+/*======IMAGE=====*/
+
+.donate_wrapper .image {
+    text-align: center;
+    margin-bottom: 3px;
+}
+
+.donate_wrapper .image img {
+    width: 50%;
+    margin-top: 22px;
+}
+
+/*======HEADING=====*/
+
+.donate_wrapper .heading {
+    text-align: center;
+}
+
+.donate_wrapper p.topic {
+    font-size: 32px;
+    line-height: 50px;
+}
+
+.donate_wrapper p.msg {
+    font-size: 16px;
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 17px;
+}
+
+/*======INPUT=====*/
+
+.donate_wrapper .input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 35px 107px;
+    margin-left: 7rem;
+}
+
+.donate_wrapper label {
+    color: black;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 0;
+    margin-bottom: 7px;
+}
+
+.donate_wrapper input[type="text"],
+.donate_wrapper input[type="email"],
+.donate_wrapper input[type="number"] {
+    width: 100%;
+    font-size: 13px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: transparent;
+    color: #000;
+    border: 1px solid #000;
+    border-radius: 4px;
+    outline: none;
+}
+
+/*======BUTTON=====*/
+
+.donate_wrapper .button .btn {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.donate_wrapper button.btn-design {
+    width: 14rem;
+    height: 6vh;
+    border-radius: 7px;
+    border: none;
+    background-color: #16aa52;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.donate_wrapper button.btn-design:hover{
+    background-color: #1ec962;
+}
+
+/*======ICON=====*/
+
+.donate_wrapper .icon1 {
+    margin-left: 28rem;
+    margin-top: -26px;
+    margin-bottom: 24px;
+}

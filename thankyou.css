@@ -1,0 +1,228 @@
+* {
+    margin: auto;
+    padding: auto;
+}
+
+/*=====THANK_WRAPPER=====*/
+
+.thank_wrapper {
+    height: 100vh;
+}
+
+/*======CONTAINER=====*/
+
+.thank_wrapper .container {
+    max-width: 2000px;
+    margin: auto;
+}
+
+/*======BACKGROUND=====*/
+
+.thank_wrapper .back img {
+    width: 62%;
+    height: 520px;
+    margin-top: 82px;
+    margin-left: 19%;
+}
+
+/*======THANK=====*/
+
+.thank_wrapper .thank {
+    width: 55%;
+    background-color: #fff;
+    height: 40vh;
+    margin-top: -31%;
+    position: relative;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+/*======TOPIC=====*/
+
+.thank_wrapper .top2 {
+    border-top: 50px solid #1976d2;
+}
+
+.thank_wrapper .top2 p {
+    text-align: center;
+    font-size: 29px;
+    color: #fff;
+    margin-top: -40px;
+}
+
+/*======WISHES=====*/
+
+.thank_wrapper .wishes h1 {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 50px;
+}
+
+.thank_wrapper .wishes .p1 {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 28px;
+}
+
+.thank_wrapper .wishes .p2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+/*======SOCIAL=====*/
+
+.thank_wrapper .social1 {
+    width: 27%;
+    height: 18vh;
+    background-color: #fff;
+    margin-top: 20px;
+    margin-left: 346px;
+    position: relative;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.thank_wrapper .head p {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.thank_wrapper .mid {
+    border-top: 40px solid #1976d2;
+    width: 43%;
+    margin-top: 23px;
+    border-radius: 5px;
+}
+
+/*======ICON=====*/
+
+.thank_wrapper .icons {
+    text-align: center;
+    margin-top: -30px;
+    letter-spacing: 16px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.thank_wrapper .icons a {
+    color: #fff;
+}
+
+/*======VISIT=====*/
+
+.thank_wrapper .visit {
+    width: 101%;
+    height: 18vh;
+    background-color: #fff;
+    margin-top: -95px;
+    margin-left: 103%;
+    position: relative;
+    z-index: 1;
+}
+
+.thank_wrapper .head2 p {
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/*======BUTTON=====*/
+
+.thank_wrapper .button {
+    text-align: center;
+    margin-top: 23px;
+}
+
+.thank_wrapper .button .btn {
+    width: 29%;
+    height: 40px;
+    background: #1976d2;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+/*=====MEDIA QUERY=====*/
+
+@media (max-width: 767px) {
+
+    .thank_wrapper {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .thank_wrapper .back img {
+        width: 96%;
+        margin-left: 2%;
+        height: 416px;
+        margin-top: 43%;
+    }
+
+    .thank_wrapper .thank {
+        width: 86%;
+        margin-top: -97%;
+        height: 25vh;
+        opacity: 0.8;
+    }
+
+    .thank_wrapper .top2 {
+        border-top: 35px solid #1976d2;
+    }
+
+    .thank_wrapper .top2 p {
+        font-size: 20px;
+        margin-top: -27px;
+    }
+
+    .thank_wrapper .wishes h1 {
+        font-size: 40px;
+        margin-top: 30px;
+    }
+
+    .thank_wrapper .wishes .p1 {
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    .thank_wrapper .wishes .p2 {
+        font-size: 13px;
+    }
+
+    .thank_wrapper .social1 {
+        width: 43%;
+        height: 14vh;
+        margin-left: 27px;
+        margin-top: 13px;
+    }
+
+    .thank_wrapper .head p {
+        font-size: 18px;
+    }
+
+    .thank_wrapper .mid {
+        width: 70%;
+        border-top: 35px solid #1976d2;
+    }
+
+    .thank_wrapper .visit {
+        width: 97%;
+        margin-top: -78px;
+        height: 14vh;
+    }
+
+    .thank_wrapper .head2 p {
+        font-size: 18px;
+    }
+
+    .thank_wrapper .button .btn {
+        width: 55%;
+        height: 35px;
+    }
+
+
+}

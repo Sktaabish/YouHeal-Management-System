@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  margin: auto;
+  padding: auto;
+}
+
+/*=====APPOINT_WRAPPER=====*/
+.appoint_wrapper {
+  font-family: "Roboto", sans-serif;
+}
+
+/*=====CONTAINER=====*/
+.appoint_wrapper .container {
+  max-width: 2000px;
+  margin: auto;
+}
+
+/*=====APPOINTMENT-PAGE=====*/
+.appoint_wrapper #appointment-page {
+  height: 100vh;
+  background-image: url('images/loginback.jpg');
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*=====FORM=====*/
+.appoint_wrapper .form {
+  width: 100%;
+  backdrop-filter: blur(10px);
+  padding: 20px 20px 15px 20px;
+  border: none;
+  border-radius: 6px;
+  max-width: 500px;
+  margin-top: 40px;
+}
+
+/*=====FORM-HEADING=====*/
+.appoint_wrapper .form-heading {
+  margin-bottom: 12px;
+}
+
+.appoint_wrapper .form-heading h1 {
+  font-size: 28px;
+  text-align: center;
+  color: black;
+}
+
+/*=====INPUT=====*/
+.appoint_wrapper input {
+  width: 95%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  background: transparent;
+}
+
+.appoint_wrapper select {
+  border: none;
+  width: 30%;
+  background: transparent;
+  margin-left: 1rem;
+}
+
+.appoint_wrapper .docname {
+  margin-bottom: 20px;
+}
+
+.appoint_wrapper p.icon1 {
+  margin-left: 89%;
+  margin-top: -10%;
+  margin-bottom: 5%;
+  cursor: pointer;
+}
+
+.appoint_wrapper .dropdown{
+  position: relative;
+}
+
+.appoint_wrapper .dropdown::before{
+  content: '';
+  position: absolute;
+  right: 38px;
+  top: 34px;
+  z-index: 10000;
+  width: 8px;
+  height: 8px;
+  border: 2px solid #000;
+  border-top: 2px solid transparent;
+  border-right: 2px solid transparent;
+  transform: rotate(-45deg);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.appoint_wrapper .dropdown.active::before{
+  top: 34px;
+  transform: rotate(-225deg);
+}
+
+.appoint_wrapper .dropdown .option{
+  position: absolute;
+  top: 70px;
+  width: 95%;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  display: none;
+}
+
+.appoint_wrapper .main{
+  display: flex;
+}
+
+.appoint_wrapper .dropdown.active .option{
+  display: block;
+}
+
+.appoint_wrapper .dropdown .option div {
+  padding: 12px 20px;
+  cursor: pointer;
+}
+
+.appoint_wrapper .dropdown .option .time:hover{
+  background: #62baea;
+  color: #fff;
+}
+
+
+
+/* .appoint_wrapper .dropdown {
+  box-sizing: border-box;
+  width: 70%;
+  height: 19vh;
+  border: 1px solid #000;
+  letter-spacing: 3px;  
+}
+
+.appoint_wrapper .drop {
+  display: flex;
+  margin-top: 5%;
+}
+
+.appoint_wrapper .input {
+  margin-top: 4px;
+}
+
+.appoint_wrapper .inp1 {
+  margin-top: -17px;
+  margin-right: 14px;
+}
+
+.appoint_wrapper .inp {
+  margin-left: 37px;
+}
+
+.appoint_wrapper input[type="checkbox"] {
+  margin-left: -33px;
+} */
+
+/*=====BUTTON=====*/
+.appoint_wrapper .btn {
+  background-color: #2d3b55;
+  color: #fff;
+  padding: 12px;
+  margin-top: -13px;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.appoint_wrapper .btn:hover {
+  background-color: #3c4d6d;
+}
+
+.appoint_wrapper .back {
+  text-align: center;
+  margin-top: -81px;
+  margin-left: 354px;
+}
+
+.appoint_wrapper .back button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.appoint_wrapper .back a {
+  text-decoration: none;
+  color: #000;
+}
+
+.appoint_wrapper .back button:hover {
+  transform: scale(1.03);
+}
+
+.appoint_wrapper h5 {
+  margin-left: 122px;
+  margin-bottom: 29px;
+}
+
+.appoint_wrapper .icons {
+  margin-left: 158px;
+  margin-top: -20px;
+}
+
+.appoint_wrapper .icons a {
+  color: #000;
+}
+
+.appoint_wrapper .icon {
+  font-size: 22px;
+}
+
+.appoint_wrapper .icons :hover {
+  transform: scale(1.03);
+}
+
+/*=====MEDIA QUERY=====*/
+
+@media (max-width: 767px) {
+
+  .appoint_wrapper {
+    width: 100%;
+    background-image: url(images/loginback.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 77rem 100%;
+  }
+
+  .appoint_wrapper .form {
+    width: 85%;
+  }
+
+  .appoint_wrapper .form-heading {
+    margin-bottom: 15px;
+  }
+
+  .appoint_wrapper .back {
+    margin-top: -185px;
+  }
+
+  .appoint_wrapper .btn {
+    margin-right: -10px;
+    padding: 7px 10px;
+  }
+
+  .appoint_wrapper .button {
+    margin-top: 120%;
+  }
+
+  .appoint_wrapper .back {
+    margin-top: -14rem;
+    margin-left: 12rem;
+  }
+
+
+}

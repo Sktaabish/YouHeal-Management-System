@@ -1,0 +1,230 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+* {
+  margin: auto;
+  padding: auto;
+}
+
+/*REGISTER_WRAPPER*/
+.register_wrapper {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  background-image: url('images/loginback.jpg');
+  background-repeat: no-repeat;
+}
+
+/*=====CONTAINER=====*/
+.register_wrapper .container {
+  max-width: 2000px;
+  margin: auto;
+}
+
+/*=====REGISTERATION=====*/
+.register_wrapper #registration-page {
+  display: flex;
+}
+
+.register_wrapper .signup-form {
+  flex: 1;
+  max-width: 600px;
+  border-radius: 6px;
+  height: 59vh;
+  backdrop-filter: blur(100px);
+  margin-top: 100px;
+  margin-bottom: auto;
+}
+
+/*=====FORM HEADER=====*/
+.register_wrapper .form-header {
+  padding: 15px 0;
+}
+
+.register_wrapper .form-header h1 {
+  font-size: 28px;
+  text-align: center;
+  color: black;
+}
+
+/*=====FORM BODY=====*/
+.register_wrapper .form-body {
+  padding: 5px 10px;
+}
+
+.register_wrapper .row {
+  display: flex;
+}
+
+.register_wrapper .input-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 28px;
+  margin-left: 4px;
+}
+
+.register_wrapper .log {
+  display: flex;
+  float: left;
+  margin-top: 1px;
+  margin-left: 18px;
+}
+
+.register_wrapper .log p {
+  font-size: 15px;
+}
+
+.register_wrapper .log a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/*=====FORM FOTTER=====*/
+.register_wrapper .form-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.register_wrapper .btn {
+  margin-right: 0;
+  margin-top: -7px;
+  padding: 10px 20px;
+  background: #2d3b55;
+  color: #fff;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register_wrapper .btn:hover {
+  background: #3c4d6d;
+}
+
+/*=====INPUT=====*/
+
+.register_wrapper label {
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  margin-left: 0;
+}
+
+.register_wrapper input[type="text"],
+.register_wrapper input[type="email"],
+.register_wrapper input[type="password"],
+.register_wrapper input[type="file"],
+.register_wrapper input[type="number"],
+textarea {
+  width: 100%;
+  font-size: 13px;
+  height: 32px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: transparent;
+  color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  outline: none;
+}
+
+.register_wrapper textarea {
+  resize: none;
+  height: 100px;
+}
+
+/*=====BUTTON=====*/
+.register_wrapper .button {
+  margin-top: 34%;
+  margin-left: -67rem;
+}
+
+.register_wrapper .back {
+  text-align: center;
+  margin-top: 34rem;
+  margin-left: -40rem;
+}
+
+.register_wrapper .back button {
+  border: none;
+  cursor: pointer;
+  background: transparent;
+}
+
+.register_wrapper .back a {
+  text-decoration: none;
+  color: #000;
+}
+
+.register_wrapper .back button:hover {
+  transform: scale(1.03);
+}
+
+.register_wrapper .icons {
+  margin-left: 146px;
+  margin-top: -20px;
+}
+
+.register_wrapper .icons a {
+  color: #000;
+}
+
+.register_wrapper .icon {
+  font-size: 22px;
+}
+
+.register_wrapper .icons :hover {
+  transform: scale(1.03);
+}
+
+/*=====MEDIA QUERY=====*/
+
+@media (max-width: 767px) {
+
+  .register_wrapper {
+    width: 100%;
+    background-image: url(images/loginback.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: 77rem 100%;
+  }
+
+  .register_wrapper #registration-page {
+    width: 100%;
+  }
+
+  .register_wrapper .signup-form {
+    width: 100%;
+    max-width: 98%;
+    height: 50vh;
+    margin-left: 4px;
+    margin-top: 9rem;
+  }
+
+  .register_wrapper .log {
+    margin-left: 6px;
+  }
+
+  .register_wrapper .log p {
+    font-size: 13px;
+  }
+
+  .register_wrapper .log a {
+    font-size: 15px;
+  }
+
+  .register_wrapper .btn {
+    margin-right: -10px;
+    padding: 7px 10px;
+  }
+
+  .register_wrapper .button {
+    margin-top: 120%;
+  }
+
+  .register_wrapper .back {
+    margin-top: 37rem;
+    margin-left: -192px;
+  }
+
+}
