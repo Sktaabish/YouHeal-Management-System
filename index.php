@@ -449,4 +449,4 @@
     </div>
   </div>
   <!-- FOOTER -->
-  <?php include('include/footer.php') ?>
+  <?php include('include/footer2.php') ?>
